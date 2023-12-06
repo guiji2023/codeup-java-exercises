@@ -47,18 +47,18 @@ public class HelloWorld {
 
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
-//        int myInt = sc.nextInt();
-//        System.out.print("Enter your first world: ");
-//        String word1 = sc.nextLine();
-//        System.out.print("Enter your second world: ");
-//        String word2 = sc.nextLine();
-//        System.out.print("Enter your third world: ");
-//        String word3 = sc.nextLine();
+////        int myInt = sc.nextInt();
+////
+//        System.out.println("Enter three words.");
+//        String word1 = sc.next();
+//        String word2 = sc.next();
+//        String word3 = sc.next();
 //
+//        System.out.println(word1 + " "+ word2 + " " + word3);
+
+
+
 //
-//        System.out.println(word1);
-//        System.out.println(word2);
-//        System.out.println(word3);
 
 
 //        String mySentence = sc.nextLine();
@@ -67,21 +67,29 @@ public class HelloWorld {
 
 
         // Calcualte the perimeter and
-        System.out.println("Enter the length (meters):");
-        int length = sc.nextInt();
-        System.out.println("Enter the width (meters):");
-        int width = sc.nextInt();
+//        System.out.println("Enter the length (meters):");
+//        int length = sc.nextInt();
+//        System.out.println("Enter the width (meters):");
+//        int width = sc.nextInt();
+//
+//        int area = length * width;
+//        System.out.printf("The area is %s square meters\n", area);
+//
+//        int perimeter = (length + width) * 2;
+//        System.out.printf("The perimeter is %s square meters\n", perimeter);
+//
+//
+//        System.out.println("Enter the height");
+//        int height = sc.nextInt();
+//        double volume = length * width* height;
+//        System.out.printf("The volume is %s cube meters\n", volume);
 
-        int area = length * width;
-        System.out.printf("The area is %s square meters\n", area);
+//
+//        int height = sc.nextInt();
+//        int length = sc.nextInt();
+//        int width = sc.nextInt();
+//
+//        System.out.println(height);
 
-        int perimeter = (length + width) * 2;
-        System.out.printf("The perimeter is %s square meters\n", perimeter);
-
-
-        System.out.println("Enter the height");
-        int height = sc.nextInt();
-        double volume = length * width* height;
-        System.out.printf("The volume is %s cube meters\n", volume);
     }
 }
