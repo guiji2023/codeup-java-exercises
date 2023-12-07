@@ -49,8 +49,10 @@ public class ControlFlowExercises {
 //        for (int i =0; i <= 100 ; i++){
 //            printFizBuzz(i);
 //        }
+////
 //
-//
+
+
 //        System.out.println("Enter an integer");
 //        int userInput = sc.nextInt();
 //        displayPowers(userInput);
@@ -64,14 +66,16 @@ public class ControlFlowExercises {
     }
 
     public static void printFizBuzz(int a){
-        if (a%3 == 0){
-            System.out.println("Fizz");
+        if(a%15 == 0){
+            System.out.println("FizzBuzz " + a);
         }
-        if(a%5 == 0){
-            System.out.println("Buzz");
-        } if(a%15 == 0){
-            System.out.println("FizzBuzz");
+        else if (a%3 == 0){
+            System.out.println("Fizz " + a);
         }
+        else if(a%5 == 0){
+            System.out.println("Buzz " + a);
+        }
+
 
     }
 
